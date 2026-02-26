@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Funnel Sans", sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+ background-color: rgb(184, 106, 10);
+ color: white;
+ border-radius: 8px;
+border: none;
+width: 50%;
+ 
+}

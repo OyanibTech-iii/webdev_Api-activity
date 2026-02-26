@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DashboardController!{% endblock %}
+
+{% block body %}
+
+<a href="{{ path('app_logout') }}">Logout</a>
+<a href="{{ path('app_event_index') }}">Event</a>
+<a href="{{ path('app_venue_index') }}">Venue</a>
+{% endblock %}

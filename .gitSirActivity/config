@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Web-Development-2/web-development-2-b-OyanibTech-iii.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "Project"]
+	remote = origin
+	merge = refs/heads/Project
+[branch "practice"]
+	vscode-merge-base = origin/Project
+	remote = origin
+	merge = refs/heads/practice
+[branch "errorfixes"]
+	vscode-merge-base = origin/practice
+	remote = origin
+	merge = refs/heads/errorfixes
